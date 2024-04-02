@@ -4,3 +4,4 @@ dist
 compiled
 coverage
 .vscode
+package-lock.json
