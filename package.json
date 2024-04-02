@@ -1,6 +1,6 @@
 {
   "name": "react-native-jwt-decode",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Generate and decode JWT inside of a React Native app without error",
   "main": "src/index.js", 
   "scripts": {
