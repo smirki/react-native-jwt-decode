@@ -2,9 +2,10 @@
   "name": "react-native-jwt-decode",
   "version": "1.0.0",
   "description": "Generate and decode JWT inside of a React Native app without error",
-  "main": "index.js",
+  "main": "src/index.js", 
   "scripts": {
-    "test": "npm test"
+    "test": "jest", 
+    "build": "babel src --out-dir dist" 
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/smirki/react-native-jwt-decode/issues"
   },
-  "homepage": "https://github.com/smirki/react-native-jwt-decode#readme"
+  "homepage": "https://github.com/smirki/react-native-jwt-decode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0", 
+    "@babel/cli": "^7.0.0", 
+    "@babel/preset-env": "^7.0.0", 
+    "jest": "^26.0.0" 
+  },
+  "dependencies": {
+    "jwt-decode": "^3.1.2", 
+    "base-64": "^1.0.0" 
+  }
 }
